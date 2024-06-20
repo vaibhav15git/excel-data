@@ -1,0 +1,44 @@
+/* LoginPage.css */
+
+.bg-image {
+  background-image: url('https://cdn.pixabay.com/photo/2024/04/25/02/23/ai-generated-8718795_640.png'); /* Replace with your image URL */
+  
+  background-position: center;
+  height: 550px;
+  width: 500px;
+  margin: auto;
+ 
+}
+
+.form-container {
+  height: 500px !important;
+  width: 500px !important;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  padding: 10px;
+}
+
+.btn-primary {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .bg-image {
+    display: none;
+  }
+
+  .form-container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 20px;
+  }
+}
